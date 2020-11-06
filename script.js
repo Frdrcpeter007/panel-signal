@@ -1,6 +1,7 @@
 (()=> {
   $("#runDemo").click((e) => {
-    signal();
+	signal();
+	$("#runDemo").remove()
   })
 })();
 
